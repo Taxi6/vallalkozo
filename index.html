@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vállalkozói Kvíz</title>
+    <title>VÁLLALKOZÁSTAN KVÍZ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -109,10 +109,10 @@
 </head>
 <body>
     <div id="quiz-container">
-        <h1>Vállalkozói Kvíz</h1>
+        <h1>VÁLLALKOZÁSTAN KVÍZ</h1>
         <div id="quiz">
             <p id="question">Betöltés...</p>
-            <div id="answered">Kérdések válaszolva: 0 / 9</div>
+            <div id="answered">Kérdések válaszolva: 0 / 125</div>
             <div id="answers"></div>
             <div id="error-count">Hibák: 0 / 5</div>
             <button id="next-button" style="display: none;" onclick="nextQuestion()">Tovább</button>
@@ -126,95 +126,7 @@
     <script>
         const questions = [
             {
-                question: "A saját tulajdonú, nem kizárólag üzemi célú személygépkocsi esetében költségként elszámolható az üzemanyagköltségen kívül minden más költség címén",
-                options: [
-                    "9 Ft/km.",
-                    "8 Ft/km.",
-                    "15 Ft/km.",
-                    "5 Ft/km."
-                ],
-                correctAnswer: "9 Ft/km."
-            },
-            {
-                question: "Mekkora a társasági adó mértéke? (nyereség után)",
-                options: [
-                    "A pozitív adóalap 4%-a.",
-                    "A pozitív adóalap 7%-a.",
-                    "A pozitív adóalap 5%-a.",
-                    "A pozitív adóalap 9%-a."
-                ],
-                correctAnswer: "A pozitív adóalap 9%-a."
-            },
-            {
-                question: "Mi a számviteli bizonylat?",
-                options: [
-                    "Minden olyan külső és belső okmány, amelyet a gazdasági esemény számviteli elszámolását támasztja alá.",
-                    "Csak az ÁFA törvényben meghatározott tartalommal kiállított számla.",
-                    "Minden olyan kapott számla, amelyet a mérlegkészítés napjáig a vállalkozás megkap.",
-                    "Minden olyan külső és belső okmány, amelyet nyomdai úton állítottak elő."
-                ],
-                correctAnswer: "Minden olyan külső és belső okmány, amelyet a gazdasági esemény számviteli elszámolását támasztja alá."
-            },
-            {
-                question: "Időnorma fogalma:",
-                options: [
-                    "Túlóra.",
-                    "Meghatározott munkafeladat elvégzéséhez szükséges munkaidő, ésszerű szervezési és vezetési feltételek mellett.",
-                    "Napi munkaidő.",
-                    "Meghatározott tevékenység elvégzéséhez szükséges időkeret."
-                ],
-                correctAnswer: "Meghatározott munkafeladat elvégzéséhez szükséges munkaidő, ésszerű szervezési és vezetési feltételek mellett."
-            },
-            {
-                question: "A mérlegben az eszközök és a források",
-                options: [
-                    "Csak a zárómérlegben egyenlőek.",
-                    "Csak a nyitómérlegben egyenlőek.",
-                    "Mindig egyenlők.",
-                    "Sohasem egyenlők."
-                ],
-                correctAnswer: "Mindig egyenlők."
-            },
-            {
-                question: "A személygépkocsi beszerzése esetén az adóalany levonhatja az előzetesen felszámított adót…",
-                options: [
-                    "Ha a beszerzés nem tovább értékesítési céllal történt.",
-                    "Az egyéni vállalkozó taxis, meghatározott feltételek mellett.",
-                    "Ha az adóalany gazdasági tevékenységéhez a személygépkocsi használata feltétlenül szükséges.",
-                    "Nem vonhatja le."
-                ],
-                correctAnswer: "Ha az adóalany gazdasági tevékenységéhez a személygépkocsi használata feltétlenül szükséges."
-            },
-            {
-                question: "Az adózónak az adókötelezettségét érintő változását…",
-                options: [
-                    "15 napon belül be kell jelentenie az adóhatóságnak.",
-                    "5 napon belül be kell jelentenie az adóhatóságnak.",
-                    "3 napon belül be kell jelentenie az adóhatóságnak.",
-                    "10 napon belül be kell jelentenie az adóhatóságnak."
-                ],
-                correctAnswer: "15 napon belül be kell jelentenie az adóhatóságnak."
-            },
-            {
-                question: "Meddig kell benyújtani a bevallást a levont SZJA előlegről?",
-                options: [
-                    "A tárgyhónapot követő hó 20-áig.",
-                    "A tárgyhónapot követő hó 25-éig.",
-                    "Nem kell benyújtani.",
-                    "A tárgyhónapot követő hó 12-éig."
-                ],
-                correctAnswer: "A tárgyhónapot követő hó 20-áig."
-            },
-            {
-                question: "A jogosulatlanul benyújtott adó-visszaigénylés esetén…",
-                options: [
-                    "Mulasztási bírságot állapít meg.",
-                    "Önellenőrzésre szólít fel.",
-                    "Az adóhatóság bírságot állapít meg, ha a kiutalás megtörtént.",
-                    "Az adóhatóság adóbírságot állapít meg."
-                ],
-                correctAnswer: "Az adóhatóság adóbírságot állapít meg."
-            }
+                
         ];
 
         let currentQuestionIndex = 0;
